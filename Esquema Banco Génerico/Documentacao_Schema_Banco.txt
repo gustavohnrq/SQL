@@ -1,0 +1,21 @@
+
+################## Documentação Detalhada do Script SQL para o Banco ##################
+
+Arquivo: Schema Banco.sql
+Descrição: Este script SQL estabelece a estrutura de um banco de dados para um sistema bancário, incluindo tabelas para bancos, agências, contas, clientes e mais.
+
+1. Configurações Iniciais:
+   - Configurações de SQL para garantir a integridade dos dados e a execução correta do script.
+
+2. Criação de Esquema:
+   - Criação do esquema 'Exercicio_1' com conjunto de caracteres padrão UTF-8.
+
+3. Definição de Tabelas:
+   - Banco: Tabela para armazenar dados dos bancos.
+   - Agencia: Detalha as agências, incluindo relações de chave estrangeira com a tabela Banco.
+   - Conta, Cliente, SexoCliente, TipoConta, Historico, TelefoneCliente: Tabelas que armazenam informações detalhadas sobre as operações e clientes do banco.
+
+4. Restauração de Configurações:
+   - Restauração das configurações de SQL após a criação das tabelas.
+
+Este script é fundamental para estabelecer a base de dados necessária para operações bancárias, garantindo a integridade e a adequação dos dados armazenados.
